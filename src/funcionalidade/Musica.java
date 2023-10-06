@@ -1,10 +1,12 @@
 package src.funcionalidade;
 
 public class Musica {
+
     public void tocar(){
         System.out.println("MUSICA TOCANDO");
     }
-    public void pausar(){
+    public void pausarMusica(){pausar();}
+    private void pausar(){
         System.out.println("MUSICA PAUSADA");
     }
     public void selecionar(){

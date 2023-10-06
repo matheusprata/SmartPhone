@@ -13,7 +13,7 @@ public class SmartPhone {
 
         Musica musica = new Musica();
         musica.tocar();
-        musica.pausar();
+        musica.pausarMusica();
         musica.selecionar();
 
         Internet internet = new Internet();
